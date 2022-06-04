@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Engagement&family=Rock+Salt&display=swap');
+*
+{    
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background: url('img/Untitled design.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mainbody 
+{
+    padding: 100px;
+    display: flex;
+    justify-content: flex-end;
+}
+.heading 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+span
+{
+    color: #fff;
+    font-family: 'GlacialIndifferenceRegular'; 
+    font-weight: normal; 
+    font-style: normal; 
+    font-size: 50px;
+}
+h1
+{
+    font-family: 'Rock Salt', cursive;
+    color: #fff;
+    font-size: 3em;
+}
+#destination
+{
+    margin-top: 10vh;
+    font-family: 'GlacialIndifferenceRegular'; 
+    font-weight: normal; 
+    font-style: normal; 
+}
+button
+{
+    margin-top: 15vw;
+    background: transparent;
+    color: #fff;
+    font-size: 1em;
+    font-family: 'Rock Salt', cursive;
+    border-radius: 3px;
+    border-color: #fff;
+    width: 100px;
+    height:fit-content;
+}
