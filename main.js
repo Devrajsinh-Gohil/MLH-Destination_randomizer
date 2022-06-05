@@ -1,7 +1,3 @@
-
-    
-
-
 function spinner(){
     var i = Math.floor(Math.random() * 50);
     fetch("places.json")
