@@ -5,6 +5,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+.select {
+    text-align: center;
+    margin: 0;
+}
 body
 {
     background: url('img/bg3.png');
@@ -70,13 +74,39 @@ span
 }
 button
 {
-    margin-top: 5vw;
     background: transparent;
     color: #fff;
+    margin-left: 10px;
     font-size: 1em;
     font-family: 'Rock Salt', cursive;
     border-radius: 10px;
     border-color: #fff;
     width: 100px;
-    height:fit-content;s
+    height:fit-content;
+}
+
+
+.select select
+{
+    background: none;
+    border: none;
+    width: 20vw;
+    color: #fff;
+    font-family: 'GlacialIndifferenceRegular';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+.bot
+{
+    padding-top: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
 }
