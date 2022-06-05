@@ -5,17 +5,23 @@
     margin: 0;
     box-sizing: border-box;
 }
+.select {
+    text-align: center;
+    margin: 0;
+}
 body
 {
-    background: url('img/Untitled design.png');
+    background: url('img/bg3.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
 .mainbody 
 {
-    padding: 100px;
+    margin-top:110px;
+    padding-top: 20px;
+    padding-left: 100px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
 }
 .heading 
 {
@@ -26,29 +32,31 @@ body
 }
 span
 {
+    margin-top:20px;
     color: #fff;
     font-family: 'GlacialIndifferenceRegular'; 
     font-weight: normal; 
     font-style: normal; 
     font-size: 50px;
 }
-h1
+/* #heading
 {
     font-family: 'Rock Salt', cursive;
+    font-weight: 400;
     color: #fff;
     font-size: 3em;
-}
+} */
 .desti
 {
-    margin-top:5px;
+    margin-top:50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 50vw;
     height: 50vh;
     z-index: 2;
-    background: rgba(255, 255, 255, 0);
+    
     background: rgba(255, 255, 255, 0);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -66,13 +74,39 @@ h1
 }
 button
 {
-    margin-top: 2vw;
     background: transparent;
     color: #fff;
+    margin-left: 10px;
     font-size: 1em;
     font-family: 'Rock Salt', cursive;
     border-radius: 10px;
     border-color: #fff;
     width: 100px;
     height:fit-content;
+}
+
+
+.select select
+{
+    background: none;
+    border: none;
+    width: 20vw;
+    color: #fff;
+    font-family: 'GlacialIndifferenceRegular';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+.bot
+{
+    padding-top: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
 }
